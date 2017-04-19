@@ -1,0 +1,14 @@
+<ion-view view-title="Dinner">
+  <ion-content>
+    <ion-list>
+
+      <ion-item ng-repeat="chat in chats" class="card item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img class="front" ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

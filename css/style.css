@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+img.front {
+	width: 30%;
+	height: 30%;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+img {
+	width: 30%;
+	height: 30%;
+	float: right;
+}
+
+h5 h6 {
+	font-weight: bold;
+}
